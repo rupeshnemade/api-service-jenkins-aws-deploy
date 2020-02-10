@@ -10,8 +10,8 @@ pipeline {
     environment {
         REGION = "us-east-1"
         projectName = 'hotel_caseStudy'
-        urlPrefix = 'https://github.com/rupesnemade/'
-        projectUrl = "${urlPrefix}/ecs-deployement.git"
+        urlPrefix = 'https://github.com/rupeshnemade'
+        projectUrl = "${urlPrefix}/api-service-jenkins-aws-deploy.git"
     }
     
     stages {
