@@ -1,6 +1,8 @@
+- Jenkins
 We are using Jenkins server hosted on AWS to deploy the infrastructure on AWS.
 This Jenkins slave has all IAM permissions to create resources in AWS.
 
+- Terragrunt
 Terragrunt is a thin wrapper for Terraform that provides extra tools for keeping your Terraform configurations DRY, working with multiple Terraform modules, and managing remote state.
 
 Terragrunt will use terraform code located at "https://github.com/rupeshnemade/api-service-aws-terraform.git".
